@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import '../node_modules/primeflex/primeflex.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+html, body { height: 100%; }
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.side-nav{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1460' height='71' preserveAspectRatio='none' viewBox='0 0 1460 71'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath6344%26quot%3b)' fill='none'%3e%3crect width='1460' height='71' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='5.785' cx='1416.88' cy='56.14' fill='url(%26quot%3b%23SvgjsLinearGradient6345%26quot%3b)'%3e%3c/circle%3e%3ccircle r='6.485' cx='190.69' cy='10.81' fill='url(%26quot%3b%23SvgjsLinearGradient6346%26quot%3b)'%3e%3c/circle%3e%3ccircle r='3.985' cx='848.99' cy='55.87' fill='url(%26quot%3b%23SvgjsLinearGradient6347%26quot%3b)'%3e%3c/circle%3e%3ccircle r='5.55' cx='316.27' cy='49.99' fill='url(%26quot%3b%23SvgjsLinearGradient6348%26quot%3b)'%3e%3c/circle%3e%3ccircle r='2.46' cx='83.65' cy='55.75' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='6.055' cx='813.51' cy='8.04' fill='url(%26quot%3b%23SvgjsLinearGradient6349%26quot%3b)'%3e%3c/circle%3e%3ccircle r='2.045' cx='206.59' cy='65' fill='url(%26quot%3b%23SvgjsLinearGradient6350%26quot%3b)'%3e%3c/circle%3e%3ccircle r='6.025' cx='262.14' cy='47.01' fill='url(%26quot%3b%23SvgjsLinearGradient6351%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath6344'%3e%3crect width='1460' height='71' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='1405.3100000000002' y1='56.14' x2='1428.4500000000003' y2='56.14' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6345'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='177.72' y1='10.81' x2='203.66' y2='10.81' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6346'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='841.02' y1='55.87' x2='856.96' y2='55.87' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6347'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='305.16999999999996' y1='49.99' x2='327.36999999999995' y2='49.99' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6348'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='801.4' y1='8.04' x2='825.62' y2='8.04' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6349'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='202.5' y1='65' x2='210.68' y2='65' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6350'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='250.08999999999997' y1='47.00999999999999' x2='274.19' y2='47.00999999999999' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient6351'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  width: 100%;
+  height: 70px;
+}
+
+
+
+
