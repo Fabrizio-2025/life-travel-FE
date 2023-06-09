@@ -1,6 +1,6 @@
 <p-sidebar [(visible)]="sidebarVisible" class="w-full">
   <h3 style="color: rgb(97, 178, 231) ;" class="font-semibold text-2xl">Login</h3>
-  <div class="flex flex-column gap-2 w-9">
+  <div class="flex flex-column gap-2 w-10">
     <label style="color:  rgb(155, 221, 193);" class="font-semibold" htmlFor="username">Username*</label>
     <input required pInputText id="username" aria-describedby="username-help" [(ngModel)]="usernamel" />
 
@@ -11,27 +11,29 @@
   </div>
   <br>
   <p-button label="Ingresar" class="mt-5" styleClass="p-button-success"></p-button>
-  <p-button  class="ml-2" label="Cancelar" styleClass="p-button-danger" (click)="sidebarVisible = false"></p-button>
+  <p-button class="ml-2" label="Cancelar" styleClass="p-button-danger" (click)="sidebarVisible = false"></p-button>
 </p-sidebar>
 
 <div class="div-main flex justify-content-around align-items-center">
   <div class="div-left">
-    <img src="../../../../assets/images/pexels-leah-kelley-3935702.jpg" alt="" class="wallpaper">
+    <img src="../../../../assets/images/pexels-roman-odintsov-4871012.jpg" alt="" class="wallpaper">
     <div class="front-paper flex">
-      <div class="flex align-items-center justify-content-center container-paper">
+      <div class="flex align-items-center justify-content-center flex-row container-paper">
         <div class=" min-container flex flex-column justify-content-center">
-          <i style="color: rgb(97, 177, 177) ;" class="bi bi-map big-icon justify-content-center flex"></i>
-          <div class="icons flex justify-content-between ">
-            <div class="icon-circle">
-              <img class="icon" src="https://img.icons8.com/?size=512&id=uLWV5A9vXIPu&format=png" alt="">
-            </div>
-            <div class="icon-circle">
-              <img class="icon" src="https://img.icons8.com/?size=512&id=13963&format=png" alt="">
+          <div class="flex flex-row align-items-center justify-content-center" >
+            <i style="color: rgb(155, 221, 193); ;" class="bi bi-map big-icon"></i>
+            <div class=" font-paper flex align-items-center">
+              <h1>Life Travel</h1>
             </div>
           </div>
-        </div>
-        <div class=" font-paper justify-content-center flex">
-          <h1>Life Travel</h1>
+          <div class="icons flex justify-content-center align-items-center ">
+            <div class="icon-circle flex justify-content-center align-items-center">
+              <i class="bi bi-facebook icon "></i>
+            </div>
+            <div class="icon-circle">
+              <i class="bi bi-twitter icon"></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -49,7 +51,7 @@
           <small id="username-help">Enter your username.</small>
         </div>
         <br>
-        <div class="flex flex-column gap-2 w-8">
+        <div class="flex flex-column gap-2 ">
           <label style="color:  rgb(155, 221, 193);" class="font-semibold" htmlFor="password">Password* </label>
           <p-password [(ngModel)]="passwordr" [toggleMask]="true"></p-password>
           <small id="password-help">Enter your password.</small>
@@ -59,7 +61,7 @@
           <h4 class="mb-0 ml-1 text-sm font-medium">Remember me</h4>
         </div>
         <br>
-        <p-button >Registrarse</p-button>
+        <p-button>Registrarse</p-button>
 
         <p class="mt-3 text-sm">Ya te encuentras Registrado? <button (click)="sidebarVisible = true"
             style="background-color: rgb(111, 184, 184); border: none; " class="btn-rg">Inicia Sesion</button> </p>

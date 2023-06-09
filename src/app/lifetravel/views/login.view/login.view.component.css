@@ -29,6 +29,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .container-paper {
@@ -37,16 +38,17 @@
 
 .big-icon {
   font-size: 140px;
+
 }
 
 .min-container {
-  width: 150px;
+  width: 380px;
   height: 300px;
 }
 
 .font-paper {
-  width: 200px;
-  height: 180px;
+  width: 100%;
+  height: 100%;
 }
 
 .font-paper h1 {
@@ -65,12 +67,14 @@
 .icon {
   width: 100%;
   height: 100%;
-
+  font-size: 100px;
+  color:  rgb(155, 221, 193);;
 }
 
 .icon-circle {
   background-color: rgb(111, 184, 184);
-  height: 90%;
+  height: 80%;
+  width: 30%;
   border-radius: 100%;
   cursor: pointer;
 }
