@@ -1,5 +1,13 @@
+.div-left {
+  width: 30%;
+  margin-left: 10px;
+}
 
+.div-right {
+  width: 70%;
+}
 
-
-
-
+.div-left h1{
+  font-size: 30px;
+  font-weight: 700;
+}

@@ -15,7 +15,7 @@
 .div-right {
   width: 55%;
   height: 100%;
-  background-color: rgb(236, 248, 225);
+  background-color: rgb(155, 221, 193);
 }
 
 .div-main {
@@ -58,23 +58,29 @@
 }
 
 .icons {
-  width: 355px;
-  height: 162px;
-  margin-top: 20px;
+  width: 100%;
+  height: 100%;
 
 }
 
-.icon {
+.iconf {
   width: 100%;
   height: 100%;
   font-size: 100px;
   color:  rgb(155, 221, 193);;
 }
 
+.icont {
+  width: 100%;
+  height: 100%;
+  font-size: 88px;
+  color:  rgb(155, 221, 193);;
+}
+
 .icon-circle {
   background-color: rgb(111, 184, 184);
-  height: 80%;
-  width: 30%;
+  height: 68%;
+  width: 28%;
   border-radius: 100%;
   cursor: pointer;
 }

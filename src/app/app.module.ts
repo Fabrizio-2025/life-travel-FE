@@ -18,12 +18,14 @@ import { InputTextModule } from 'primeng/inputtext';
 import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
 import { PasswordModule } from 'primeng/password';
 import { CheckboxModule } from 'primeng/checkbox';
+import { HomeViewComponent } from './lifetravel/views/home.view/home.view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginViewComponent,
-    SidenavComponent
+    SidenavComponent,
+    HomeViewComponent
   ],
   imports: [
     BrowserModule,

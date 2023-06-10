@@ -10,7 +10,7 @@
     <p-password [(ngModel)]="passwordl" [toggleMask]="true"></p-password>
   </div>
   <br>
-  <p-button label="Ingresar" class="mt-5" styleClass="p-button-success"></p-button>
+  <p-button label="Ingresar" class="mt-5" styleClass="p-button-success" routerLink="/home"></p-button>
   <p-button class="ml-2" label="Cancelar" styleClass="p-button-danger" (click)="sidebarVisible = false"></p-button>
 </p-sidebar>
 
@@ -20,18 +20,22 @@
     <div class="front-paper flex">
       <div class="flex align-items-center justify-content-center flex-row container-paper">
         <div class=" min-container flex flex-column justify-content-center">
-          <div class="flex flex-row align-items-center justify-content-center" >
-            <i style="color: rgb(155, 221, 193); ;" class="bi bi-map big-icon"></i>
-            <div class=" font-paper flex align-items-center">
+          <div class="flex flex-row align-items-center ju ">
+            <i style="color: rgb(155, 221, 193) ;" class="bi bi-map big-icon"></i>
+            <div class=" font-paper flex align-items-center justify-content-around">
               <h1>Life Travel</h1>
             </div>
           </div>
-          <div class="icons flex justify-content-center align-items-center ">
-            <div class="icon-circle flex justify-content-center align-items-center">
-              <i class="bi bi-facebook icon "></i>
+          <div class="icons flex justify-content-around align-items-center ">
+            <div class="icon-circle flex align-items-center justify-content-center ">
+              <div>
+                <i class="bi bi-facebook iconf "></i>
+              </div>
             </div>
-            <div class="icon-circle">
-              <i class="bi bi-twitter icon"></i>
+            <div class="icon-circle flex align-items-center justify-content-center">
+              <div>
+                <i class="bi bi-twitter icont"></i>
+              </div>
             </div>
           </div>
         </div>
