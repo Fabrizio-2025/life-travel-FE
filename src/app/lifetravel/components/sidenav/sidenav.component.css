@@ -11,3 +11,11 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+.div-right a:hover{
+  cursor: pointer;
+}
+
+:host ::ng-deep .p-sidebar {
+  width: 40vw !important;
+}

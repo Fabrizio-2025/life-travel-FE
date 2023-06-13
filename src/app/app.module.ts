@@ -19,6 +19,10 @@ import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
 import { PasswordModule } from 'primeng/password';
 import { CheckboxModule } from 'primeng/checkbox';
 import { HomeViewComponent } from './lifetravel/views/home.view/home.view.component';
+import { ProductService } from './lifetravel/services/productService';
+import { DataViewModule, DataViewLayoutOptions } from 'primeng/dataview';
+import { TagModule } from 'primeng/tag';
+import { RatingModule } from 'primeng/rating';
 
 @NgModule({
   declarations: [
@@ -37,10 +41,14 @@ import { HomeViewComponent } from './lifetravel/views/home.view/home.view.compon
     InputTextModule,
     TriStateCheckboxModule,
     PasswordModule,
-    CheckboxModule
+    CheckboxModule,
+    DataViewModule,
+    TagModule,
+    RatingModule
+
 
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
