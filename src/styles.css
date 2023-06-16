@@ -4,6 +4,7 @@
 @import '../node_modules/primeflex/primeflex.css';
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import "primeicons/primeicons.css";
 
 html, body { height: 100%; }
 

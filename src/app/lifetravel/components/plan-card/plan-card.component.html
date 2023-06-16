@@ -1,0 +1,36 @@
+<div class="div-main">
+  <div class="div-top flex align-content-between ">
+    <div class="imagen">
+      <img src="http://www.fullviajes.net/wp-content/uploads/2017/01/disney-full-viajes-e1643417532347-770x656.jpg"
+        alt="">
+    </div>
+    <div class="description  ">
+      <p>Esta es una aventura que podras visitar en familia ! <br> no te quedes con las ganas de conocer a mikey mouse !
+      </p>
+      <p>Esta es una aventura que podras visitar en familia ! <br> no te quedes con las ganas de conocer a mikey mouse !
+      </p>
+
+    </div>
+  </div>
+  <div class="div-bot flex ">
+    <div class="icons flex align-items-center flex-column">
+      <div class="icons-container">
+        <h4>El plan Cuenta con lo Suiguiente:</h4>
+        <li *ngFor="let items of atributos;index as i">
+          {{items}}
+        </li>
+      </div>
+    </div>
+    <div class="buttons flex align-items-center justify-content-center">
+      <div class="card   ">
+        <p-button (click)="showDialog()" icon="" label="Mostrar detalles"></p-button>
+        <p-dialog header="Detalles:" [(visible)]="visible" [modal]="true" [style]="{ width: '50%' }" [draggable]="true"
+          [resizable]="true">
+          <li *ngFor="let items of atributos;index as i">
+            {{items}}
+          </li>
+        </p-dialog>
+      </div>
+    </div>
+  </div>
+</div>

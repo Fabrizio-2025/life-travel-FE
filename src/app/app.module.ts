@@ -23,13 +23,23 @@ import { ProductService } from './lifetravel/services/productService';
 import { DataViewModule, DataViewLayoutOptions } from 'primeng/dataview';
 import { TagModule } from 'primeng/tag';
 import { RatingModule } from 'primeng/rating';
+import { HotelCardComponent } from './lifetravel/components/hotel-card/hotel-card.component';
+import { CalendarModule } from 'primeng/calendar';
+import { PlanesViewComponent } from './lifetravel/views/planes.view/planes.view.component';
+import { PlanCardComponent } from './lifetravel/components/plan-card/plan-card.component';
+import { DialogModule } from 'primeng/dialog';
+import { ToastModule } from 'primeng/toast';
+import { TableModule } from 'primeng/table';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginViewComponent,
     SidenavComponent,
-    HomeViewComponent
+    HomeViewComponent,
+    HotelCardComponent,
+    PlanesViewComponent,
+    PlanCardComponent
   ],
   imports: [
     BrowserModule,
@@ -44,8 +54,11 @@ import { RatingModule } from 'primeng/rating';
     CheckboxModule,
     DataViewModule,
     TagModule,
-    RatingModule
-
+    RatingModule,
+    CalendarModule,
+    ToastModule,
+    TableModule,
+    DialogModule
 
   ],
   providers: [ProductService],

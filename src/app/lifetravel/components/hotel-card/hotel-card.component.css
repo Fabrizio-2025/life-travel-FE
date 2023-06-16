@@ -1,0 +1,50 @@
+.card {
+  width: 550px;
+  height: 450px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.top-card {
+  height: 50%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.bot-card {
+  background-color: rgb(155, 221, 193);
+  height: 50%;
+  width: 100%;
+  border-radius: 10PX 0 10px 10px;
+  padding-left: 5px;
+}
+
+.imagen {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px 0 0 0;
+}
+
+.description {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(155, 221, 193);
+  overflow-y: auto;
+  border-radius: 10px 10px 0 0;
+  padding-left: 5px;
+}
+
+.imagen img {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 10px ;
+}
+
+
+
